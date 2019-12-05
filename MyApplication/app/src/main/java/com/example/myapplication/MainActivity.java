@@ -1,22 +1,11 @@
 package com.example.myapplication;
 
-import android.app.usage.UsageEvents;
-import android.net.sip.SipSession;
-import android.net.wifi.p2p.WifiP2pManager;
-import android.provider.ContactsContract;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-
-import java.util.ArrayList;
-import java.util.EventListener;
-import java.util.List;
-
-import static com.example.myapplication.R.drawable.ic_launcher_background;
 
 public class MainActivity extends AppCompatActivity {
     Button btn;
@@ -33,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         img = findViewById(R.id.imageView);
         txt = findViewById(R.id.textView);
 
-        View.OnClickListener listener = new View.OnClickListener(){
+        /*View.OnClickListener listener = new View.OnClickListener(){
             @Override
             public void  onClick(View v)
             {
@@ -42,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
                 img.setImageResource(ic_launcher_background);
             }
         };
-        btn.setOnClickListener(listener);
+        btn.setOnClickListener(listener);*/
+
+        /*****compileOptions{
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }*/
     }
 }
